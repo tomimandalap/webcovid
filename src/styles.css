@@ -1,0 +1,184 @@
+@font-face {
+  font-family: 'monserrat';
+  src: url('../src/asset/fonts/font-montserrat/Montserrat-Medium.ttf');
+}
+
+/* warna1 : #A9EEE6 */
+/* warna2 : #FEFAEC */
+/* warna3 : #F38181 */
+/* warna4 : #625772 */
+* {
+  font-family: 'monserrat';
+  text-decoration: none;
+  list-style: none;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  line-height: 2;
+  color: #625772;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.f-weight {
+  font-weight: 700;
+}
+
+.f-small {
+  font-size: small;
+}
+
+.f-normal {
+  font-size: medium;
+}
+
+.f-large {
+  font-size: large;
+}
+
+.f-i-virus {
+  font-size: 30px;
+}
+
+.l-space {
+  letter-spacing: 0.2em;
+}
+
+.color1 {
+  color: #A9EEE6;
+}
+
+.color2 {
+  color: #FEFAEC;
+}
+
+.color3 {
+  color: #F38181;
+}
+
+.color4 {
+  color: #625772;
+}
+
+.color-list {
+  color: cadetblue;
+}
+
+.color-cross {
+  color: lightcoral;
+}
+
+.bg-color1 {
+  background: #A9EEE6;
+}
+
+.bg-color2 {
+  background: #FEFAEC;
+}
+
+.bg-color3 {
+  background: #F38181;
+}
+
+.bg-color4 {
+  background: #625772;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.navbar {
+  z-index: 1;
+}
+
+.navbar-brand,
+.nav-link {
+  color: #625772 !important;
+  transition: all 0.5s;
+}
+
+.navbar-brand:hover,
+.nav-link:hover {
+  color: #F38181 !important;
+  transition: all 0.3s;
+}
+
+.bg-transparent {
+  transition: all 0.5s;
+}
+
+.bg-transparent.scroll {
+  transition: all 0.3s;
+  background: #fff !important;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.hero-v1 {
+  height: 495px;
+}
+
+.slice {
+  border-bottom-right-radius: 10%;
+  border-bottom-left-radius: 10%;
+}
+
+.bg-hero {
+  background: #A9EEE6;
+}
+
+.bg-second {
+  background: #d2f1ee83;
+}
+
+.mt-img {
+  margin-top: 150px;
+}
+
+.global {
+  height: 350px;
+}
+
+.info {
+  height: 530px;
+}
+
+.img-info {
+  width: 500px;
+}
+
+.protect {
+  height: 710px;
+}
+
+.img-protect {
+  width: 400px;
+}
+
+.symptoms {
+  height: 650px;
+}
+
+.card-shadow {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.img-card {
+  width: 100px;
+}
+
+.footer {
+  height: 370px;
+}
+
+.t-line {
+  line-height: 2;
+}
