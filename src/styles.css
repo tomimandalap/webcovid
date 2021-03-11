@@ -24,6 +24,15 @@ body {
   font-size: 1rem;
 }
 
+::-webkit-scrollbar {
+  width: 0.5em;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(#d2f1ee83, cadetblue);
+  border-radius: 10px;
+}
+
 .uppercase {
   text-transform: uppercase;
 }
@@ -74,6 +83,10 @@ body {
 
 .color-cross {
   color: lightcoral;
+}
+
+.color-second {
+  color: #d2f1ee83;
 }
 
 .bg-color1 {
@@ -173,6 +186,19 @@ body {
 
 .img-card {
   width: 100px;
+}
+
+.countriesdata {
+  height: 900px;
+}
+
+.detailData {
+  height: 900px;
+}
+
+.h-table {
+  height: 40.625em;
+  overflow: auto;
 }
 
 .footer {
