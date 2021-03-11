@@ -2,6 +2,9 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Deploy
+Link website [covid-react](http://52.204.186.223:9001/)
+
 ## Image
 
 ### Home
